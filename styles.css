@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: mediumslateblue;
-    color: white;
+    background-color: rgb(55, 31, 194);
+    color: rgb(214, 30, 30);
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
 }
@@ -19,8 +19,8 @@ header,
 form {
     min-height: 20vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /*  x direction */
+    align-items: center;/* Y  direction */
 }
 
 form input, 
@@ -34,7 +34,7 @@ form button {
 }
 
 form button {
-    color: rgb(255, 200, 0);
+    color: rgb(255, 157, 0);
     background: white;
     cursor: pointer;
     transition: all 0.3 ease;
@@ -43,7 +43,7 @@ form button {
 
 form button:hover {
     color: white;
-    background: rgb(255, 200, 0);
+    background: rgb(176, 97, 11);
 }
 
 .fa-plus-circle {
@@ -151,7 +151,7 @@ select {
     transition: all 0.3s ease;
 }
 
-.select::hover::after {
+.select:hover::after {
     background: white;
-    color: rgb(255, 200, 0);
+    color: rgb(255, 196, 0);
 }
